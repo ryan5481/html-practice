@@ -1,0 +1,24 @@
+:root {
+    --background-color-primary: rgb(237, 239, 246)
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: blue;
+    width: 200px;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+}
+
